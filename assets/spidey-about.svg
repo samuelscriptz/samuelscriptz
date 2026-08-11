@@ -1,0 +1,100 @@
+<svg viewBox="0 0 900 400" xmlns="http://www.w3.org/2000/svg" font-family="'JetBrains Mono', monospace">
+  <defs>
+    <linearGradient id="aboutBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1c0505"/>
+      <stop offset="100%" stop-color="#0d1117"/>
+    </linearGradient>
+    <filter id="softGlow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="3" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect x="4" y="4" width="892" height="392" rx="14" fill="url(#aboutBg)"/>
+  <rect x="4" y="4" width="892" height="392" rx="14" fill="none" stroke="#ff2b2b" stroke-width="2.2"
+        stroke-dasharray="2568" stroke-dashoffset="2568">
+    <animate attributeName="stroke-dashoffset" from="2568" to="0" dur="1.6s" fill="freeze"/>
+    <animate attributeName="stroke-opacity" values="1;0.55;1" dur="2.6s" begin="1.6s" repeatCount="indefinite"/>
+  </rect>
+
+  <g stroke="#ff2b2b" stroke-width="1.3" fill="none" opacity="0.5">
+    <path d="M4,4 L70,4 M4,4 L4,70 M4,4 L52,52"/>
+    <path d="M896,396 L830,396 M896,396 L896,330 M896,396 L848,348"/>
+  </g>
+
+  <text x="34" y="46" font-size="22" font-weight="800" fill="#ff3b3b" filter="url(#softGlow)">&#127760; About Me</text>
+  <line x1="34" y1="58" x2="866" y2="58" stroke="#8b0000" stroke-width="1.4" opacity="0.7"/>
+
+  <line x1="530" y1="78" x2="530" y2="370" stroke="#3a0000" stroke-width="1"/>
+
+  <text x="66" y="82" font-size="12.5" fill="#8b949e" letter-spacing="1">WHO I AM</text>
+  
+    <g opacity="0">
+      <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.90s" fill="freeze"/>
+      <text x="66" y="108" font-size="14" fill="#ff3b3b" font-weight="700">&#8226;</text>
+      <text x="80" y="108" font-size="13.5" fill="#dcdcdc">Computer Science &amp; Engineering — Data Science &amp; AI</text>
+    </g>
+    <g opacity="0">
+      <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="1.05s" fill="freeze"/>
+      <text x="66" y="140" font-size="14" fill="#ff3b3b" font-weight="700">&#8226;</text>
+      <text x="80" y="140" font-size="13.5" fill="#dcdcdc">Full-stack developer &amp; AI builder</text>
+    </g>
+    <g opacity="0">
+      <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="1.20s" fill="freeze"/>
+      <text x="66" y="172" font-size="14" fill="#ff3b3b" font-weight="700">&#8226;</text>
+      <text x="80" y="172" font-size="13.5" fill="#dcdcdc">Interested in intelligent systems, automation &amp; SaaS</text>
+    </g>
+    <g opacity="0">
+      <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="1.35s" fill="freeze"/>
+      <text x="66" y="204" font-size="14" fill="#ff3b3b" font-weight="700">&#8226;</text>
+      <text x="80" y="204" font-size="13.5" fill="#dcdcdc">Building products from idea to architecture to deployment</text>
+    </g>
+    <g opacity="0">
+      <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="1.50s" fill="freeze"/>
+      <text x="66" y="236" font-size="14" fill="#ff3b3b" font-weight="700">&#8226;</text>
+      <text x="80" y="236" font-size="13.5" fill="#dcdcdc">Currently turning ambitious ideas into real software</text>
+    </g>
+
+  <text x="570" y="82" font-size="12.5" fill="#8b949e" letter-spacing="1">QUICK FACTS</text>
+  
+    <g opacity="0">
+      <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="1.00s" fill="freeze"/>
+      <text x="570" y="108" font-size="12" fill="#8b949e">Portfolio</text>
+      <text x="870" y="108" font-size="13" fill="#ff6b6b" font-weight="600" text-anchor="end">samuelpaulamardeep.in</text>
+      <line x1="570" y1="118" x2="870" y2="118" stroke="#3a0000" stroke-width="0.8"/>
+    </g>
+    <g opacity="0">
+      <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="1.12s" fill="freeze"/>
+      <text x="570" y="144" font-size="12" fill="#8b949e">Email</text>
+      <text x="870" y="144" font-size="13" fill="#ff6b6b" font-weight="600" text-anchor="end">samuelpaul.amardeep@gmail.com</text>
+      <line x1="570" y1="154" x2="870" y2="154" stroke="#3a0000" stroke-width="0.8"/>
+    </g>
+    <g opacity="0">
+      <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="1.24s" fill="freeze"/>
+      <text x="570" y="180" font-size="12" fill="#8b949e">GitHub</text>
+      <text x="870" y="180" font-size="13" fill="#ff6b6b" font-weight="600" text-anchor="end">@samuelscriptz</text>
+      <line x1="570" y1="190" x2="870" y2="190" stroke="#3a0000" stroke-width="0.8"/>
+    </g>
+    <g opacity="0">
+      <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="1.36s" fill="freeze"/>
+      <text x="570" y="216" font-size="12" fill="#8b949e">LinkedIn</text>
+      <text x="870" y="216" font-size="13" fill="#ff6b6b" font-weight="600" text-anchor="end">samuelpaulamardeep</text>
+      <line x1="570" y1="226" x2="870" y2="226" stroke="#3a0000" stroke-width="0.8"/>
+    </g>
+    <g opacity="0">
+      <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="1.48s" fill="freeze"/>
+      <text x="570" y="252" font-size="12" fill="#8b949e">Field</text>
+      <text x="870" y="252" font-size="13" fill="#ff6b6b" font-weight="600" text-anchor="end">CSE — Data Science &amp; AI</text>
+      <line x1="570" y1="262" x2="870" y2="262" stroke="#3a0000" stroke-width="0.8"/>
+    </g>
+    <g opacity="0">
+      <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="1.60s" fill="freeze"/>
+      <text x="570" y="288" font-size="12" fill="#8b949e">Base</text>
+      <text x="870" y="288" font-size="13" fill="#ff6b6b" font-weight="600" text-anchor="end">India</text>
+      <line x1="570" y1="298" x2="870" y2="298" stroke="#3a0000" stroke-width="0.8"/>
+    </g>
+
+  <text x="34" y="378" font-size="11.5" fill="#6e7681" font-style="italic">
+    I like taking an idea, designing the system behind it, and pushing it all the way to something people can use.
+  </text>
+</svg>

@@ -1,0 +1,53 @@
+<svg viewBox="0 0 900 46" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="lineGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3a0000"/>
+      <stop offset="15%" stop-color="#b81f1f"/>
+      <stop offset="50%" stop-color="#ff3b3b"/>
+      <stop offset="85%" stop-color="#b81f1f"/>
+      <stop offset="100%" stop-color="#3a0000"/>
+    </linearGradient>
+  </defs>
+
+  <!-- thick main strand -->
+  <line x1="0" y1="23" x2="900" y2="23" stroke="url(#lineGrad)" stroke-width="3.2" stroke-linecap="round"
+        stroke-dasharray="900" stroke-dashoffset="900">
+    <animate attributeName="stroke-dashoffset" from="900" to="0" dur="1.4s" fill="freeze"/>
+  </line>
+
+  <!-- thin support strand above/below for a woven look -->
+  <line x1="0" y1="17" x2="900" y2="17" stroke="#8b0000" stroke-width="1" opacity="0"
+        stroke-dasharray="900" stroke-dashoffset="900">
+    <animate attributeName="stroke-dashoffset" from="900" to="0" dur="1.4s" begin="0.15s" fill="freeze"/>
+    <animate attributeName="opacity" from="0" to="0.5" dur="0.3s" begin="0.15s" fill="freeze"/>
+  </line>
+  <line x1="0" y1="29" x2="900" y2="29" stroke="#8b0000" stroke-width="1" opacity="0"
+        stroke-dasharray="900" stroke-dashoffset="900">
+    <animate attributeName="stroke-dashoffset" from="900" to="0" dur="1.4s" begin="0.15s" fill="freeze"/>
+    <animate attributeName="opacity" from="0" to="0.5" dur="0.3s" begin="0.15s" fill="freeze"/>
+  </line>
+
+  <!-- central web knot -->
+  <g fill="#ff3b3b" opacity="0">
+    <animate attributeName="opacity" values="0;1" dur="0.5s" begin="1.4s" fill="freeze"/>
+    <circle cx="450" cy="23" r="4"/>
+    <path d="M450,23 L428,8 M450,23 L472,8 M450,23 L428,38 M450,23 L472,38 M450,23 L410,23 M450,23 L490,23"
+          stroke="#ff3b3b" stroke-width="1.4"/>
+  </g>
+
+  <!-- small spider crawling across the strand, looping -->
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;1" dur="0.4s" begin="1.7s" fill="freeze"/>
+    <g>
+      <animateMotion path="M10,23 L890,23" dur="7s" begin="1.9s" repeatCount="indefinite"/>
+      <g transform="scale(1.3)">
+        <g stroke="#0d0d0d" stroke-width="1.3" fill="none" stroke-linecap="round">
+          <path d="M-4,0 L-10,-3 M-4,2 L-11,3 M-4,4 L-9,7 M-4,6 L-7,9"/>
+          <path d="M4,0 L10,-3 M4,2 L11,3 M4,4 L9,7 M4,6 L7,9"/>
+        </g>
+        <ellipse cx="0" cy="3" rx="4.5" ry="5.5" fill="#0d0d0d" stroke="#ff3b3b" stroke-width="0.6"/>
+        <circle cx="0" cy="-3" r="2.8" fill="#0d0d0d" stroke="#ff3b3b" stroke-width="0.6"/>
+      </g>
+    </g>
+  </g>
+</svg>
