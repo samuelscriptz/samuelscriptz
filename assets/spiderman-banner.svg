@@ -1,0 +1,125 @@
+<svg viewBox="0 0 900 260" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="0%" r="100%">
+      <stop offset="0%" stop-color="#1a0000"/>
+      <stop offset="55%" stop-color="#0d1117"/>
+      <stop offset="100%" stop-color="#0d1117"/>
+    </radialGradient>
+    <linearGradient id="nameGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ff1e1e"/>
+      <stop offset="50%" stop-color="#ff4d4d"/>
+      <stop offset="100%" stop-color="#ff1e1e"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3.2" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="900" height="260" fill="url(#bg)"/>
+
+  <!-- ===== Corner web: top-left ===== -->
+  <g stroke="#8b0000" stroke-width="1.1" fill="none" opacity="0.55">
+    <path id="tl1" d="M0,0 L170,90" stroke-dasharray="220" stroke-dashoffset="220">
+      <animate attributeName="stroke-dashoffset" from="220" to="0" dur="1.4s" begin="0.1s" fill="freeze"/>
+    </path>
+    <path id="tl2" d="M0,0 L120,140" stroke-dasharray="220" stroke-dashoffset="220">
+      <animate attributeName="stroke-dashoffset" from="220" to="0" dur="1.4s" begin="0.3s" fill="freeze"/>
+    </path>
+    <path id="tl3" d="M0,0 L60,175" stroke-dasharray="220" stroke-dashoffset="220">
+      <animate attributeName="stroke-dashoffset" from="220" to="0" dur="1.4s" begin="0.5s" fill="freeze"/>
+    </path>
+    <path id="tl4" d="M0,0 L200,20" stroke-dasharray="220" stroke-dashoffset="220">
+      <animate attributeName="stroke-dashoffset" from="220" to="0" dur="1.2s" begin="0s" fill="freeze"/>
+    </path>
+    <!-- concentric arcs -->
+    <path d="M40,4 Q60,55 5,80" stroke-dasharray="130" stroke-dashoffset="130">
+      <animate attributeName="stroke-dashoffset" from="130" to="0" dur="1s" begin="0.9s" fill="freeze"/>
+    </path>
+    <path d="M85,10 Q120,90 15,140" stroke-dasharray="220" stroke-dashoffset="220">
+      <animate attributeName="stroke-dashoffset" from="220" to="0" dur="1.2s" begin="1.05s" fill="freeze"/>
+    </path>
+    <path d="M140,15 Q170,120 45,175" stroke-dasharray="290" stroke-dashoffset="290">
+      <animate attributeName="stroke-dashoffset" from="290" to="0" dur="1.3s" begin="1.2s" fill="freeze"/>
+    </path>
+  </g>
+
+  <!-- ===== Corner web: top-right ===== -->
+  <g stroke="#8b0000" stroke-width="1.1" fill="none" opacity="0.55">
+    <path d="M900,0 L730,90" stroke-dasharray="220" stroke-dashoffset="220">
+      <animate attributeName="stroke-dashoffset" from="220" to="0" dur="1.4s" begin="0.1s" fill="freeze"/>
+    </path>
+    <path d="M900,0 L780,140" stroke-dasharray="220" stroke-dashoffset="220">
+      <animate attributeName="stroke-dashoffset" from="220" to="0" dur="1.4s" begin="0.3s" fill="freeze"/>
+    </path>
+    <path d="M900,0 L840,175" stroke-dasharray="220" stroke-dashoffset="220">
+      <animate attributeName="stroke-dashoffset" from="220" to="0" dur="1.4s" begin="0.5s" fill="freeze"/>
+    </path>
+    <path d="M900,0 L700,20" stroke-dasharray="220" stroke-dashoffset="220">
+      <animate attributeName="stroke-dashoffset" from="220" to="0" dur="1.2s" begin="0s" fill="freeze"/>
+    </path>
+    <path d="M860,4 Q840,55 895,80" stroke-dasharray="130" stroke-dashoffset="130">
+      <animate attributeName="stroke-dashoffset" from="130" to="0" dur="1s" begin="0.9s" fill="freeze"/>
+    </path>
+    <path d="M815,10 Q780,90 885,140" stroke-dasharray="220" stroke-dashoffset="220">
+      <animate attributeName="stroke-dashoffset" from="220" to="0" dur="1.2s" begin="1.05s" fill="freeze"/>
+    </path>
+    <path d="M760,15 Q730,120 855,175" stroke-dasharray="290" stroke-dashoffset="290">
+      <animate attributeName="stroke-dashoffset" from="290" to="0" dur="1.3s" begin="1.2s" fill="freeze"/>
+    </path>
+  </g>
+
+  <!-- ===== Name ===== -->
+  <text x="450" y="120" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif"
+        font-size="52" font-weight="800" fill="url(#nameGrad)" filter="url(#glow)" letter-spacing="4">
+    SAMUEL PAUL A
+    <animate attributeName="opacity" values="0;1" dur="0.8s" begin="1.6s" fill="freeze"/>
+  </text>
+
+  <text x="450" y="155" text-anchor="middle" font-family="'JetBrains Mono', monospace"
+        font-size="14" fill="#c9d1d9" letter-spacing="1.5" opacity="0">
+    AI ENGINEER &#8226; FULL-STACK DEVELOPER &#8226; WEB BUILDER
+    <animate attributeName="opacity" values="0;1" dur="0.8s" begin="2.1s" fill="freeze"/>
+  </text>
+
+  <!-- ===== Dangling / swinging spider ===== -->
+  <g>
+    <!-- thread that lengthens -->
+    <line x1="450" y1="0" x2="450" y2="46" stroke="#e6e6e6" stroke-width="1" stroke-dasharray="46" stroke-dashoffset="46" opacity="0.8">
+      <animate attributeName="stroke-dashoffset" from="46" to="0" dur="1s" begin="2.6s" fill="freeze"/>
+    </line>
+
+    <g opacity="0">
+      <animate attributeName="opacity" values="0;1" dur="0.3s" begin="3.4s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="rotate" values="-16 450 6;16 450 6;-16 450 6"
+                         dur="2.6s" begin="3.6s" repeatCount="indefinite"/>
+      <!-- spider body -->
+      <g transform="translate(450,46) scale(1.6)">
+        <ellipse cx="0" cy="6" rx="7" ry="9" fill="#0d0d0d"/>
+        <circle cx="0" cy="-6" r="4.5" fill="#0d0d0d"/>
+        <circle cx="-1.6" cy="-7" r="1" fill="#ff3b3b"/>
+        <circle cx="1.6" cy="-7" r="1" fill="#ff3b3b"/>
+        <!-- legs -->
+        <g stroke="#0d0d0d" stroke-width="1.6" fill="none" stroke-linecap="round">
+          <path d="M-6,0 L-16,-4 M-16,-4 L-24,-2"/>
+          <path d="M-6,4 L-17,4 M-17,4 L-25,7"/>
+          <path d="M-6,8 L-15,12 M-15,12 L-21,18"/>
+          <path d="M-6,11 L-12,18 M-12,18 L-16,25"/>
+          <path d="M6,0 L16,-4 M16,-4 L24,-2"/>
+          <path d="M6,4 L17,4 M17,4 L25,7"/>
+          <path d="M6,8 L15,12 M15,12 L21,18"/>
+          <path d="M6,11 L12,18 M12,18 L16,25"/>
+        </g>
+      </g>
+    </g>
+  </g>
+
+  <!-- subtle web strands crossing bottom for depth -->
+  <g stroke="#6e0000" stroke-width="0.8" fill="none" opacity="0.25">
+    <path d="M0,260 L260,150"/>
+    <path d="M900,260 L640,150"/>
+  </g>
+</svg>
