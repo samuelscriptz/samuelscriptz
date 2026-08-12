@@ -1,5 +1,9 @@
 <div align="center">
 
+<a href="https://github.com/samuelscriptz">
+  <img src="https://capsule-render.vercel.app/api?type=transparent&fontColor=e5484d&fontSize=54&height=90&width=420&text=Hello!%20I'm" alt="Hello! I'm" />
+</a>
+
 <img src="https://raw.githubusercontent.com/samuelscriptz/samuelscriptz/main/assets/spiderman-banner.svg" alt="Samuel Paul A" width="100%" />
 
 <a href="https://www.samuelpaulamardeep.in">
@@ -62,6 +66,13 @@
 <img src="https://raw.githubusercontent.com/samuelscriptz/samuelscriptz/main/assets/spidey-stats.svg" alt="Spidey stats" width="70%" />
 </div>
 
+<div align="center">
+<sub>🕷️ Live stats, straight from the source</sub>
+<br/><br/>
+<img height="165" src="https://github-readme-stats-five-sigma-99.vercel.app/api?username=samuelscriptz&show_icons=true&theme=tokyonight&title_color=e5484d&icon_color=e5484d&hide_border=true&bg_color=00000000&count_private=true" alt="stats" />
+<img height="165" src="https://github-readme-stats-five-sigma-99.vercel.app/api/top-langs/?username=samuelscriptz&layout=compact&theme=tokyonight&title_color=e5484d&icon_color=e5484d&hide_border=true&bg_color=00000000&langs_count=8" alt="top langs" />
+</div>
+
 <img src="https://raw.githubusercontent.com/samuelscriptz/samuelscriptz/main/assets/web-divider.svg" width="100%" />
 
 ## 🕷️ Contribution Web
@@ -74,6 +85,12 @@ A year of activity, spun into a web — darker strands mean quieter days, bright
 
 <div align="center">
 <sub>🕸️ 137 contributions in the last year &nbsp;•&nbsp; hover any cell for the exact count and date</sub>
+</div>
+
+<div align="center">
+<sub>📈 Live activity graph</sub>
+<br/><br/>
+<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=samuelscriptz&bg_color=00000000&color=e5484d&line=e5484d&point=c9d1d9&area=true&hide_border=true" alt="activity graph" />
 </div>
 
 <img src="https://raw.githubusercontent.com/samuelscriptz/samuelscriptz/main/assets/web-divider.svg" width="100%" />
@@ -117,6 +134,14 @@ A year of activity, spun into a web — darker strands mean quieter days, bright
 
 </div>
 
+<img src="https://raw.githubusercontent.com/samuelscriptz/samuelscriptz/main/assets/web-divider.svg" width="100%" />
+
+## 💭 Dev Wisdom
+
+<p align="center">
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Dev quote" />
+</p>
+
 <br/>
 
 <div align="center">
@@ -128,3 +153,7 @@ while(alive) { swing(); build(); learn(); repeat(); }
 <sub>Built with curiosity, caffeine, an unreasonable number of Git commits — and a little web-slinging. 🕸️</sub>
 
 </div>
+
+---
+
+<p align="center"><i>⭐️ From <a href="https://github.com/samuelscriptz">samuelscriptz</a></i></p>
